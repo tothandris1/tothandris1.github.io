@@ -29,6 +29,7 @@ html, body{
 .nav{
 	width: 20%;
 	height:auto;
+	max-height: 50%;
 	background-color: none; 
 	position: fixed;
 	bottom: 5%;
@@ -89,6 +90,7 @@ h1{
 	text-shadow: 2px 2px;
 	border-bottom: 2px solid black;
 	padding-bottom: 5px;
+	max-height: 20%;
 	
  	
 }
