@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="hu">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Tóth András portfólió </title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body class="background">
+	
+	<h1>Tóth András <br> portfólió</h1>
+	<h3 align="center">TÁJKÉP FOTÓZÁS</h3>
+	<p align="center">Nagyításhoz kattintson a képre!</p>
+	<div class="nav3">
+		<a href="fotozas.html">VISSZA</a>
+	</div>
+	<center>
+		
+			<img src="Kepek/tajkep1.jpg" id="myImg1" width="500" height="333">
+			
+			<div id="myModal" class="modal">
+				<span class="close">&times;
+
+				</span>
+ 				<img class="modal-content" id="img01">
+ 				
+			</div>	
+			
+	</center>
+	<table align="center">
+			<tr>
+				<td>
+					<img src="Kepek/tajkep2.jpg" height="333" width="500">
+				</td>
+				<td>
+					<img src="Kepek/tajkep3.jpg" height="333" width="500">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="Kepek/tajkep4.jpg" height="333" width="500">
+				</td>
+				<td>
+					<img src="Kepek/tajkep5.jpg" height="333" width="500">
+				</td>
+			</tr><tr>
+				<td>
+					<img src="Kepek/tajkep6.jpg" height="333" width="500">
+				</td>
+				<td>
+					<img src="Kepek/tajkep7.jpg" height="333" width="500">
+				</td>
+			</tr><tr>
+				<td>
+					<img src="Kepek/tajkep8.jpg" height="333" width="500">
+				</td>
+				<td>
+					<img src="Kepek/tajkep9.jpg" height="333" width="500">
+				</td>
+			</tr>
+	</table>
+
+<script >
+	var modal = document.getElementById('myModal');
+	var img = document.getElementById('myImg1');
+	var modalImg =document.getElementById('img01');
+	var captionText = document.getElementById("caption");
+	img.onclick = function(){
+		modal.style.display = "block";
+		modalImg.src = this.src;
+		captionText.innerHTML = this.alt;
+	}
+
+	var span= document.getElementsByClassName("close")[0];
+	span.onclick= function(){
+		modal.style.display="none";
+	}
+</script>
+</body>
+</html>

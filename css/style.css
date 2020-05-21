@@ -1,0 +1,349 @@
+{
+	margin: 0;
+	padding:0;
+}
+html, body{
+	width: 100%;
+	height:100%;
+	font-size: 20px;
+	font-weight: normal;
+	scroll-behavior: smooth;
+}
+.background{
+	width: 100%;
+	height: 100%;
+	background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+ background-blend-mode: screen; /*forrás:https://www.webgradients.com, 111 Elegance CSS file*/
+	/*background-color: lightgray;*/
+	/*background-image: url(../Kepek/bg2.jpg);/* sokat csúszik a kép
+	/*background-image filter: blur(30px);*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow-y: visible; 
+	/*animation: fadeIn 2s;*/
+	overflow-x: hidden;
+	
+}
+.nav{
+	width: 20%;
+	height:auto;
+	background-color: none; 
+	position: fixed;
+	bottom: 5%;
+	left:3%;
+	
+}
+.nav a{
+	text-decoration: underline;
+	font-size: 25px;
+	font-family: Times New Roman;
+	font-weight: bold;
+	height: 60px;
+	margin: 5px 0;
+	float: left;
+	display: inline-block;
+	color: darkslategray;
+	text-align: left;
+	transition: 800ms;
+}
+
+.nav a:hover{
+	background-color: black;
+	color:orange;
+	width: 100%;
+}
+.a{
+	width: 65%;
+}
+.b{
+	width:50%;
+}
+.c{
+	width:70%;
+}
+.d{
+	width:70%;
+}
+.e{
+	width:45%;
+}
+
+
+h1{
+	width:100%;
+	font-family: lucida console;
+	font-weight: normal;
+	margin:0;
+	padding: 0;
+	color:darkslategray;
+	font-family: lucida console ;
+	font-size: 3em;
+	text-align: center;
+	/*left: 5%;*/
+	position: relative;
+	background: linear-gradient(to right, deeppink, chartreuse, darkblue, blue, lightblue, coral, darksalmon, red, firebrick);
+	-webkit-text-fill-color:transparent;
+	-webkit-background-clip:text;
+	text-shadow: 2px 2px;
+	border-bottom: 2px solid black;
+	padding-bottom: 5px;
+	
+ 	
+}
+
+.content{
+	position: absolute;
+	width: 70%;
+	/*max-width: 70%;*/
+	min-height: 475px;
+	height: auto;
+	/*background-color: red;*/
+	right: 5%;
+	top: 20%;
+}
+h2{
+	color: black;
+	font-family: Times New Roman;
+	font-size: 45px;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.sokszoveg{
+	
+	right:0;
+	top:10px;
+	color:black;
+	font-family: Times New Roman;
+	padding: 0 30px;
+}
+.sokszoveg p{
+	font-size: 20px;
+	line-height: 28px;
+	margin-bottom: 15px;
+	font-weight: bold;
+	text-align: justify;
+	/*text-align: center;*/
+}
+.sokszoveg i{
+	font-size: 20px;
+	line-height: 28px;
+	margin-bottom: 15px;
+	color: none;
+	background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+	font-weight: bolder;
+	-webkit-text-fill-color:transparent;
+	-webkit-background-clip:text;
+	/*text-align: center;*/
+}
+
+/*.motorosgaleria{
+	position: absolute;
+	right:0;
+	top:10px;
+	color:black;
+	padding: 0 30px;
+}
+.motorosgaleria.motoroskep{
+	width: 23%;
+	margin: 2%;
+	float:left;
+}*/
+
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3%;
+	margin-top: 5%;
+	width: 80%;
+}
+
+.center2{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3%;
+	width: 30%;
+	margin-top: 3%;
+}
+
+/*.fade-in{
+	animation: fadeIn 6s;
+}
+
+@keyframes fadeIn{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+@keyframes fadeOut{
+	from{
+		opacity: 1;
+	}
+	to{
+		opacity: 0;
+	}
+}
+*/
+.nav2{
+	align-content: center;
+	display: block;
+	text-align: center;
+	position: sticky;
+}
+
+.nav2 ul {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.nav2 li{
+	display: inline-block;
+	text-align: center;
+}
+
+.nav2 a{
+	text-decoration: underline;
+	text-align: center;
+	color: darkslategray;
+	width: 100px;
+	display: inline-block;
+	padding: 30px;
+	font-size: 20px;
+	font-family: Times New Roman;
+	transition: 1s;
+}
+.center3{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3%;
+	width: 55%;
+	margin-top: 3%;
+	text-align: center;
+}
+.center4 p{
+	text-align: center;
+}
+
+
+.myImg{ 
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.myImg:hover{
+	opacity: 0.7s;
+}
+
+.modal{
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.9);
+	color: white;
+	font-size: 40px;
+	text-align: center;
+}
+
+.modal-content{
+	margin:auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+
+}
+
+#caption{
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+	text-align: center; 
+	padding: 10px 0;
+	height: 150px;
+}
+
+.modal-content, #caption{
+	-webkit-animation-name: zoom;
+	-webkit-animation-duration:0.6s;
+	animation-name: zoom;
+	animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom{
+	from{-webkit-transform:scale(0)}
+	to{-webkit-transform:scale(1)}	
+}
+
+@keyframes zoom{
+	from {transform: scale(0);
+	to{transform: scale(1)}
+}
+
+.close{
+	position: absolute;
+	top:15px;
+	right: 35px;
+	color:red;
+	font-size: 300px;
+	font-weight: bold;
+	transition: 0.3s;
+}
+.close:hover, .close:focus{
+	text-decoration: none;
+	cursor: pointer;
+
+}
+
+@media only screen and (max-width: 700px){
+	.modal-content{
+		width: 100%;
+	}
+}
+
+.nav3{
+	align-content: left;
+	display: block;
+	text-align: left;
+	position: fixed;
+	top: 40%;
+	left: 5%;
+
+}
+
+.nav3 a{
+	text-decoration: underline;
+	text-align: center;
+	color: darkslategray;
+	width: 100px;
+	display: inline-block;
+	padding: 30px;
+	font-size: 20px;
+	font-family: Times New Roman;
+	transition: 1s;
+	top: 40%;
+	left: 5%;
+}
+
+.table{
+	max-width: 80%;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
