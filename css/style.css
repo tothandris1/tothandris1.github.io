@@ -78,6 +78,7 @@ h1{
 	font-weight: normal;
 	margin:0;
 	padding: 0;
+	margin-top: 5px;
 	color:darkslategray;
 	font-family: lucida console ;
 	font-size: 3em;
@@ -90,7 +91,7 @@ h1{
 	text-shadow: 2px 2px;
 	border-bottom: 2px solid black;
 	padding-bottom: 5px;
-	max-height: 20%;
+	
 	
  	
 }
@@ -347,5 +348,6 @@ h2{
 	max-width: 80%;
 	margin-right: 10px;
 	margin-left: 10px;
+	top: 30%;
 }
 
